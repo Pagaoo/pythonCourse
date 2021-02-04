@@ -25,6 +25,7 @@ print(f'{num_2:9^9}')
 print('-'*50)
 
 nome = 'Gabriel'
+sobrenome = 'Paganini'
 print(f'{nome:#^50}')
-nome_formatado = '{:%<50}'.format(nome)
+nome_formatado = '{0:$^50} {1:%<50}'.format(nome, sobrenome)
 print(nome_formatado)
