@@ -24,8 +24,9 @@ print(f'{num_2:9<9}')
 print(f'{num_2:9^9}')
 print('-'*50)
 
-nome = 'Gabriel'
+nome = 'Gabriel ALO'
 sobrenome = 'Paganini'
 print(f'{nome:#^50}')
 nome_formatado = '{0:$^50} {1:%<50}'.format(nome, sobrenome)
 print(nome_formatado)
+print(nome.title())  # Primeira letra maiscúla E SE TIVER ALGUMA LETRA MAISCULA QUE NÃO SEJA A PRIMEIRA É CORRIGIDO
