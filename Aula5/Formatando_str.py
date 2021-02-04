@@ -26,3 +26,5 @@ print('-'*50)
 
 nome = 'Gabriel'
 print(f'{nome:#^50}')
+nome_formatado = '{:%<50}'.format(nome)
+print(nome_formatado)
