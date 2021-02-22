@@ -24,4 +24,4 @@ while operacao:
         print('Operador inválido')
 
     operacao = False
-print('Saiu da calculadora')
+print('Operação finalizada')
