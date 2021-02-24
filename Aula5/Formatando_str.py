@@ -29,4 +29,4 @@ sobrenome = 'Paganini'
 print(f'{nome:#^50}')
 nome_formatado = '{0:$^50} {1:%<50}'.format(nome, sobrenome)
 print(nome_formatado)
-print(nome.title())  # Primeira letra maiscúla E SE TIVER ALGUMA LETRA MAISCULA QUE NÃO SEJA A PRIMEIRA É CORRIGIDO
+print(nome.title())  # Primeira letter maiscúla E SE TIVER ALGUMA LETRA MAISCULA QUE NÃO SEJA A PRIMEIRA É CORRIGIDO

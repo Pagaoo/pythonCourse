@@ -4,7 +4,7 @@ contador = 0
 nova_frase = ''
 
 print(frase)
-input_usuario = input('Qual letra da frase acima você quer deixar maiúscula: ')
+input_usuario = input('Qual letter da frase acima você quer deixar maiúscula: ')
 
 while contador < tamanho_frase:
     if frase[contador] == ' ':

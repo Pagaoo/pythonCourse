@@ -12,5 +12,5 @@ if num.isdigit():
     else:
         print(f'O {num} é um número impar')
 else:
-    print('É um número não inteiro ou uma letra. Insira novamente')
+    print('É um número não inteiro ou uma letter. Insira novamente')
 
