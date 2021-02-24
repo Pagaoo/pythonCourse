@@ -34,3 +34,4 @@ print('-'*35)
 for n in range(100):
     if n % 8 == 0:
         print(n)  # Essa função if, seria a mesma coisa que usar o step de 8 numa contagem de 0 - 99
+
